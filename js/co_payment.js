@@ -44,3 +44,18 @@
 
 */
 
+window.addEventListener("load", function(){
+
+   // Retrieve the field/value pairs from the URL
+   var formData = location.search.slice(1);
+   formData = formData.replace(/\+/g," ");
+   formData = decodeURIComponent(formData);
+
+   var formFields = formData.split(/[&=]/g);
+
+   // Write the field values to the order form
+   // ! Finish Notes after the step on page 1022!
+
+   console.log(formFields);
+
+});
