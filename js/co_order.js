@@ -29,7 +29,7 @@
 */
 
 window.addEventListener("load", function() {
-   var orderForm = this.document.forms.orderForm;
+   var orderForm = document.forms.orderForm;
    orderForm.elements.orderDate.value = new Date().toDateString();
    orderForm.elements.model.focus();
 

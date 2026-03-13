@@ -62,7 +62,7 @@ window.addEventListener("load", function(){
    document.forms.order.elements.protectionCost.value = formFields[15];
    document.forms.order.elements.subtotal.value = formFields[17];
    document.forms.order.elements.salesTax.value = formFields[19];
-   document.forms.order.elements.totalCost.value = formFields[21]
+   document.forms.order.elements.totalCost.value = formFields[21];
 
    console.log(formFields);
 
